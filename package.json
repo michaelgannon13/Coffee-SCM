@@ -1,0 +1,25 @@
+{
+  "name": "coffee-supply-chain-mvp",
+  "version": "1.0.0",
+  "description": "Coffee Supply Chain Management System - Farm to Co-op Traceability",
+  "private": true,
+  "scripts": {
+    "setup": "cd backend && npm install && cd ../web-dashboard && npm install && cd ../mobile-app && npm install",
+    "backend": "cd backend && npm run dev",
+    "web": "cd web-dashboard && npm run dev",
+    "mobile": "cd mobile-app && npx expo start"
+  },
+  "keywords": [
+    "coffee",
+    "supply-chain",
+    "traceability",
+    "farming",
+    "cooperative"
+  ],
+  "author": "Coffee Supply Chain MVP",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/coffee-supply-chain.git"
+  }
+}
